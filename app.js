@@ -7,7 +7,6 @@ let eyeBtn = document.querySelector("#eye");
 let eyebrowsBtn = document.querySelector("#eyebrows");
 let mouthBtn = document.querySelector("#mouth");
 let allBtns = document.querySelectorAll(".btns-container button");
-let downloadBtn = document.querySelector(".download");
 let colors = ["#31e768", "#4bb4ff", "#ff702e", "#b88cff", "#ffd21f"];
 let count1 = 0;
 let count2 = 0;

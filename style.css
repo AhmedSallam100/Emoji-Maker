@@ -47,7 +47,7 @@ body {
   height: 70%;
   width: 100%;
   position: absolute;
-  top: 20%;
+  top: 27%;
 }
 .emoji {
   height: 230px;
@@ -75,7 +75,7 @@ body {
 .mouth {
   top: 120px;
 }
-.download {
+/* .download {
   font-size: 15px;
   position: absolute;
   bottom: -25px;
@@ -89,6 +89,6 @@ body {
   background-color: #f4c531;
 }
 .download:active {
-  /* transform: scale(0.9) translateX(-50%); */
+  transform: scale(0.9) translateX(-50%);
   transform: translateX(-50%) scale(0.9);
-}
+} */
