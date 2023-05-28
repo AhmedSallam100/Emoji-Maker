@@ -92,3 +92,8 @@ body {
   transform: scale(0.9) translateX(-50%);
   transform: translateX(-50%) scale(0.9);
 } */
+@media (max-width: 470px) {
+  .container {
+    width: 370px;
+  }
+}
