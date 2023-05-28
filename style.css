@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f4c531;
+}
+.container {
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 29.6px 64px rgba(86, 68, 9, 0.3);
+}
+.btns-container {
+  height: 30%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 16px;
+}
+.btns-container button {
+  font-size: 15px;
+  padding: 13px 16px;
+  /* gap: 8px; */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  /* font-weight: bold; */
+  transition: 0.3s;
+  background-color: #f4c531;
+}
+.btns-container button:active {
+  transform: scale(0.9);
+}
+.emoji-container {
+  height: 70%;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+}
+.emoji {
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffd21f;
+}
+.eyes,
+.eyebrows,
+.mouth {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.eyes {
+  top: 80px;
+}
+.eyebrows {
+  top: 50px;
+}
+.mouth {
+  top: 120px;
+}
